@@ -1,15 +1,13 @@
-function bookTicket(){
+function bookMovie(){
 
-let name=document.getElementById("name").value;
+let movie=document.getElementById("movie").value;
 
-let from=document.getElementById("from").value;
+let seat=document.getElementById("seat").value;
 
-let to=document.getElementById("to").value;
+document.getElementById("result").innerHTML=
 
-document.getElementById("ticket").innerHTML=
+"✅ "+seat+
 
-`✅ Ticket Booked Successfully<br>
-Passenger : ${name}<br>
-${from} ➜ ${to}`;
+" Ticket(s) booked for <br><br>"+movie;
 
 }
