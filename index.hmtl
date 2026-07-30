@@ -1,59 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Train Ticket Booking</title>
+<html>
 
-    <link rel="stylesheet" href="style.css">
+<head>
+
+<title>Movie Ticket Booking</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <div class="container">
 
-<h1>🚂 Train Ticket Booking</h1>
+<h1>🎬 Movie Ticket Booking</h1>
 
-<div class="card">
+<label>Movie</label>
 
-<label>Passenger Name</label>
-<input type="text" id="name">
+<select id="movie">
 
-<label>From</label>
-<select id="from">
-<option>Hyderabad</option>
-<option>Bangalore</option>
-<option>Chennai</option>
-<option>Delhi</option>
+<option>Avengers</option>
+
+<option>Pushpa 2</option>
+
+<option>Kalki 2898 AD</option>
+
+<option>Leo</option>
+
 </select>
 
-<label>To</label>
-<select id="to">
-<option>Mumbai</option>
-<option>Pune</option>
-<option>Goa</option>
-<option>Kolkata</option>
-</select>
+<label>Seats</label>
 
-<label>Date</label>
+<input type="number" id="seat" value="1">
 
-<input type="date">
+<button onclick="bookMovie()">
 
-<label>Passengers</label>
-
-<input type="number" value="1">
-
-<button onclick="bookTicket()">
 Book Ticket
+
 </button>
 
-</div>
-
-<div id="ticket"></div>
+<div id="result"></div>
 
 </div>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
