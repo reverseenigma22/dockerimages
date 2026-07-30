@@ -1,6 +1,6 @@
 body{
 
-background:#111827;
+background:#0f172a;
 
 font-family:Arial;
 
@@ -18,74 +18,64 @@ color:white;
 
 .container{
 
-width:450px;
+background:#1e293b;
 
 padding:30px;
 
-background:#1f2937;
+border-radius:12px;
 
-border-radius:15px;
+box-shadow:0px 0px 20px deeppink;
 
-box-shadow:0px 0px 20px cyan;
-
-}
-
-.card{
-
-display:flex;
-
-flex-direction:column;
-
-gap:15px;
+width:420px;
 
 }
 
-input,select{
+select,input{
 
-padding:12px;
+width:100%;
 
-border:none;
+padding:10px;
 
-border-radius:8px;
+margin-top:10px;
+
+margin-bottom:20px;
 
 }
 
 button{
 
+width:100%;
+
 padding:15px;
 
-background:#00d4ff;
-
-border:none;
+background:#ec4899;
 
 color:white;
 
-font-size:18px;
+border:none;
 
 cursor:pointer;
 
-border-radius:8px;
+font-size:18px;
 
-transition:0.3s;
+border-radius:8px;
 
 }
 
 button:hover{
 
-background:#0ea5e9;
-
 transform:scale(1.05);
+
+transition:.3s;
 
 }
 
-#ticket{
+#result{
 
 margin-top:20px;
 
-font-size:18px;
+font-size:20px;
 
 font-weight:bold;
-
-text-align:center;
 
 }
